@@ -201,3 +201,8 @@
 	);
 ```
 
+```sql
+	-- Add new column to table
+	ALTER TABLE tableName
+	ADD column datatype;
+```
