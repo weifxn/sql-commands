@@ -205,4 +205,12 @@
 	-- Add new column to table
 	ALTER TABLE tableName
 	ADD column datatype;
+
+	-- Change column name/type
+	ALTER TABLE tableName
+	ALTER COLUMN column datatype;
+
+	-- Remove column
+	ALTER TABLE tableName
+	DROP COLUMN column;
 ```
