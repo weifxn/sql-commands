@@ -61,7 +61,7 @@
 
 	SELECT * FROM table
 	WHERE column
-	BETWEEN #07/04/2018# AND #09/05/2018#; -- Between dates
+	BETWEEN '07/04/2018' AND '09/05/2018'; -- Between dates
 ```
 
 * `LIKE` condition (`CHAR` datatype only)
